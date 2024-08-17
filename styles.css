@@ -1,0 +1,104 @@
+.big{
+    width: 70%;
+    float: none;
+}
+
+.intro{
+    text-align: center;
+}
+
+body{
+    background-color: #FFF5E0;
+    margin: 20vw 10vw;
+}
+
+div{
+    margin: 10vw 0vw;
+    display: inline-block;
+}
+
+.flip {
+    margin: 0px;
+    margin-right: 1vw;
+    float: left;
+    width: 150px; /* Specify the width */
+    height: 150px; /* Specify the height */
+    background-image: url('images/1flipcover.jpg'); /* Initial background image */
+    background-size: cover; /* Cover the entire area of the element */
+    transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+
+
+.flip:hover{
+    background-image: url('images/1flipback.jpg'); /* Change on hover */
+}
+
+.change {
+    margin: 0px;
+    margin-right: 1vw;
+    float: left;
+    width: 150px; /* Specify the width */
+    height: 150px; /* Specify the height */
+    background-image: url('images/16flipcover.jpg'); /* Initial background image */
+    background-size: cover; /* Cover the entire area of the element */
+    transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+
+
+.change:hover{
+    background-image: url('images/16flipback.jpg'); /* Change on hover */
+}
+
+
+
+h1{
+    color: #C70039;
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 0px;
+}
+
+h2{
+    color: #C70039;
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0vw;
+    margin-bottom: none;
+}
+
+h3{
+    color: #C70039;
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+hr{
+    margin:10vw auto;
+    border: dotted #141E46;
+    border-bottom: none;
+    width: 4%;
+}
+
+img{
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin: 1vw;
+}
+
+.right-img{
+    float: right;
+}
+
+p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+    margin: none;
+    font-size: 18px;
+}
